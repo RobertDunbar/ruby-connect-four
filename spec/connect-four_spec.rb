@@ -1,6 +1,6 @@
-require "./player.rb"
-require "./game.rb"
-require "./board.rb"
+require "./lib/player.rb"
+require "./lib/game.rb"
+require "./lib/board.rb"
 
 RSpec.describe Player do
     player = Player.new("rob", :blue)
